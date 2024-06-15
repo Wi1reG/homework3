@@ -60,12 +60,11 @@ public class Main {
 
         //6 задание
 
-
         int allPlace = 102;
         int sittingPlace = 60;
         int standingPlace = allPlace - sittingPlace;
-        int buySittingPlace = 60;
-        int buyStandingPlace = 42;
+        int buySittingPlace = 6;
+        int buyStandingPlace = 41;
         if (buySittingPlace == sittingPlace && buyStandingPlace == standingPlace) {
             System.out.println("Все места в вагоне заняты");
         }
@@ -76,7 +75,7 @@ public class Main {
             System.out.println("В вагоне остались только сидячие места");
         }
         else if (buySittingPlace < sittingPlace && buyStandingPlace < standingPlace){
-            System.out.println("Все места в вагоне свободны");
+            System.out.println("В вагоне свободны любые места");
              }
 
         //7 задание
