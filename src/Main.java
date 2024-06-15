@@ -2,10 +2,10 @@ public class Main {
     public static void main(String[] args) {
         int age = 18;
         if (age >= 18) {
-            System.out.println("Если возраст человека равен " + age + ",то он совершеннолетний");
+            System.out.println("Если возраст человека равен " + age + ", то он совершеннолетний");
         }
         else {
-            System.out.println("Если возраст человека равен " + age + "он не достиг совершеннолетия, нужно немного подождать");
+            System.out.println("Если возраст человека равен " + age + " он не достиг совершеннолетия, нужно немного подождать");
         }
 
         //2 задание
@@ -64,18 +64,18 @@ public class Main {
         int allPlace = 102;
         int sittingPlace = 60;
         int standingPlace = allPlace - sittingPlace;
-        int buySittingPlace = 15;
-        int buyStandingPlace = 10;
+        int buySittingPlace = 60;
+        int buyStandingPlace = 42;
         if (buySittingPlace == sittingPlace && buyStandingPlace == standingPlace) {
             System.out.println("Все места в вагоне заняты");
         }
-        if (buySittingPlace == sittingPlace && buyStandingPlace < standingPlace) {
+        else if (buySittingPlace == sittingPlace && buyStandingPlace < standingPlace) {
             System.out.println("В вагоне остались только стоячие мечста");
         }
-        if (buySittingPlace < sittingPlace && buyStandingPlace == standingPlace) {
+        else if (buySittingPlace < sittingPlace && buyStandingPlace == standingPlace) {
             System.out.println("В вагоне остались только сидячие места");
         }
-        else {
+        else if (buySittingPlace < sittingPlace && buyStandingPlace < standingPlace){
             System.out.println("Все места в вагоне свободны");
              }
 
