@@ -75,7 +75,7 @@ public class Main {
             System.out.println("В вагоне остались только сидячие места");
         }
         else if (buySittingPlace < sittingPlace && buyStandingPlace < standingPlace){
-            System.out.println("В вагоне свободны любые места");
+            System.out.println("В вагоне свободны как сидячие, так и стоячие места");
              }
 
         //7 задание
